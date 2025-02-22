@@ -1,1 +1,1 @@
-# ASl-to-Text
+# ASL-to-Text
