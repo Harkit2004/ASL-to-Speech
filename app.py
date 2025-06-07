@@ -107,7 +107,7 @@ def draw_text_and_button(frame):
     text_area_height = 100
     cv2.rectangle(frame, (0, 0), (frame_width, text_area_height), (0, 0, 0), -1)
 
-    text_display = current_text if current_text else "Start typing with gestures..."
+    text_display = current_text if current_text else "Start talking with gestures..."
     text_size = cv2.getTextSize(text_display, cv2.FONT_HERSHEY_SIMPLEX, 1.0, 2)[0]
     text_x = (frame_width - text_size[0]) // 2
     text_y = text_area_height // 2 + text_size[1] // 2
